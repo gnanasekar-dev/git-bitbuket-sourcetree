@@ -1,0 +1,9 @@
+-- ###files in current branch
+
+these are not tracked in source tree?
+if it is appearing in your unstaged files you can discard changes to it
+
+Discard changes by checking out
+
+git checkout -- 
+git checkout .
