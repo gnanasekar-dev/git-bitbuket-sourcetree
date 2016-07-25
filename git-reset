@@ -1,0 +1,10 @@
+This usage of git reset is a simple way to undo changes that haven’t been shared with anyone else. It’s your go-to command when you’ve
+started working on a feature and find yourself thinking, “Oh crap, what am I doing? I should just start over.”
+
+git checkout hotfix
+git reset HEAD~2
+
+git reset --mixed HEAD
+git reset --hard HEAD
+
+git reset --hard 202ca32
