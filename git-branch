@@ -1,0 +1,42 @@
+#### Create branch when master checkout. Hence commits in master will be synced
+git branch branch1
+
+***************************
+
+#### Create branch when branch1 is checkout . Hence commits in branch1 will be synced
+git branch branch2
+
+***************************
+
+#### git-checkout Switch branches or restore working tree files
+git checkout branchname
+
+***************************
+
+#### create and switch branch
+git checkout -b branchname
+
+***************************
+
+#### Branches that are completedly included
+git branch --merged
+
+***************************
+
+#### Rename branch
+git branch -m branch1 newbranchname
+
+***************************
+
+#### Delete branch
+git branch -d branch-to-delete
+git branch -D branch-to-delete  ##force deletion without checking merged status
+
+
+
+************************** Branch Differences [ git diff branch1..branch2 ] ************************
+#### Multiline difference
+git diff master..branch1
+
+#### Singleline difference
+git diff --color-words branch1..branch2
