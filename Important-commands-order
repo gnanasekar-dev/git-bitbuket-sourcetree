@@ -11,13 +11,16 @@ III.---  upstream  ==> most common for others repo connection
 
 3.---  git remote add upstream https://github.com/dompascal/gitium.git ( Read )
 
+### See all the connected remote repo's
+4.---  git remote
+
 ### See permissions fetch,push ( Read,Write )
-4.---  git remote -v
+5.---  git remote -v
 
 ### Will upload any branch to the remote origin ( https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git )
-4.---  git push origin branchname
+6.---  git push origin branchname
 
-5.---  git pull origin branchname
+7.---  git pull origin branchname
 
 ### Can download any branches of any public repo but should make a connection to repo with [ git remote add upstream https://github.com/dompascal/gitium.git]
-6.---  git pull upstream branchname
+8.---  git pull upstream branchname
