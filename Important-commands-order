@@ -7,9 +7,12 @@ III.---  upstream  ==> most common for others repo connection
 
 1.---  git clone https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git ( repo .git url )
 
-2.---  git remote add origin https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git ( Read + Write )
+2.---  git remote add origin https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git ( Read[fetch] + Write[push] )
 
 3.---  git remote add upstream https://github.com/dompascal/gitium.git ( Read )
+
+### See permissions fetch,push ( Read,Write )
+4.---  git remote -v
 
 ### Will upload any branch to the remote origin ( https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git )
 4.---  git push origin branchname
