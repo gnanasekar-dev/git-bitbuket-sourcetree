@@ -1,0 +1,20 @@
+I.---  origin, upstream   ==> userdefined
+II.---  origin    ==> most common for your repo connection
+III.---  upstream  ==> most common for others repo connection
+
+
+***************************************************************
+
+1.---  git clone https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git ( repo .git url )
+
+2.---  git remote add origin https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git ( Read + Write )
+
+3.---  git remote add upstream https://github.com/dompascal/gitium.git ( Read )
+
+### Will upload any branch to the remote origin ( https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git )
+4.---  git push origin branchname
+
+5.---  git pull origin branchname
+
+### Can download any branches of any public repo but should make a connection to repo with [ git remote add upstream https://github.com/dompascal/gitium.git]
+6.---  git pull upstream branchname
