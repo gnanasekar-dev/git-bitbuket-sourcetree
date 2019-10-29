@@ -24,3 +24,10 @@ III.---  upstream  ==> most common for others repo connection
 
 ### Can download any branches of any public repo but should make a connection to repo with [ git remote add upstream https://github.com/dompascal/gitium.git]
 8.---  git pull upstream branchname
+
+
+=====
+To push the init repo to github
+
+1. git remote add origin https://github.com/gnanasekar-dev/git-bitbuket-sourcetree.git
+2. git push -u origin master
